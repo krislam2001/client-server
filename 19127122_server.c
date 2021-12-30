@@ -176,7 +176,7 @@ int main()
 	
 	/* Enter network address */
 	server_address.sin_family = AF_INET;
-	server_address.sin_addr.s_addr = inet_addr("127.0.0.1"); //Enter IP of this comp
+	server_address.sin_addr.s_addr = inet_addr("192.168.179.130"); //Enter IP of this comp
 	server_address.sin_port = htons(9734);
 	server_len = sizeof(server_address);
 	

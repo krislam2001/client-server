@@ -26,7 +26,7 @@ int main()
 	
 	/* Create address*/
 	address.sin_family = AF_INET;
-	address.sin_addr.s_addr = inet_addr("127.0.0.1"); //Enter IP of this comp
+	address.sin_addr.s_addr = inet_addr("192.168.179.130"); //Enter IP of this comp
 	address.sin_port = htons(9734);
 	len = sizeof(address);
 	
